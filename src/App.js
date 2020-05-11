@@ -2,12 +2,13 @@ import React from 'react';
 import './App.css';
 
 function App() {
+  const overview = require('./overview.jpeg');
+
   return (
     <div className="App">
       <header className="App-header">
         <p>
-         <span className ="detect-circle">&#9679;</span> 
-          
+         <img src ={overview} width="700" height="900"/>
         </p>
       </header>
     </div>
